@@ -1,5 +1,6 @@
+pandas==2.3.1
+Pillow==11.3.0
+plotly==6.2.0
+protobuf==6.31.1
+pymysql==1.1.1
 streamlit==1.46.1
-pandas==2.1.4
-plotly==5.18.0  # ← Downgrade to 5.18.0 (most stable)
-Pillow==10.2.0
-numpy==1.24.4  # ← Required for pandas 2.x
