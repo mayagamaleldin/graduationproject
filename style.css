@@ -1,0 +1,43 @@
+/* Main container styling */
+.stApp {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+    color: #2c3e50;
+}
+
+/* Button styling */
+.stButton>button {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: white;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 10px 20px !important;
+    margin: 0 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #6e8efb, #a777e3) !important;
+    color: white !important;
+}
+
+/* Input field styling */
+.stTextInput>div>div>input, .stSelectbox>div>div>select {
+    border-radius: 8px !important;
+    padding: 10px !important;
+}
