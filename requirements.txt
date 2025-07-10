@@ -1,4 +1,5 @@
-streamlit==1.46.1  # or latest version
-pandas==2.1.4      # or your preferred version
-plotly==6.2.0     # for plotly.express
-Pillow==10.2.0  # for PIL (Python Imaging Library)
+streamlit==1.46.1
+pandas==2.1.4
+plotly==5.18.0  # Downgraded for wider compatibility
+Pillow==10.2.0
+numpy==1.24.4  # Explicitly added as pandas dependency
